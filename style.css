@@ -5,12 +5,10 @@
 
 body{
   margin: 0;
-  background-color: rgb(92, 69, 42);
+  background-color: rgb(114, 85, 53);
 }
 .nav-bar{
   position: fixed;
-  top: 0;
-  left: 0;
   height: 100%;
   max-width: 100px;
   background-color: bisque;
@@ -26,8 +24,24 @@ body{
   flex-direction: column;
   width: 100px;
   justify-content: center;
-  background-color:bisque
+  background-color:bisque;
 }
+
+.button1{
+  color: rgb(42, 161, 122);
+  position: fixed;
+  bottom: 10px;
+  left: 19px;
+}
+
+.button2{
+  color: rgb(42, 161, 122);
+  position: fixed;
+  bottom: 80px;
+  left: 22px;
+ }
+
+
 
 .menu-item{
   width: 100%;
@@ -41,16 +55,54 @@ body{
 }
 
 .menu-item:hover{
-  background-color: aquamarine;
+  background-color: rgb(42, 161, 122);
 }
 
 .content{
   flex: 90%;
   margin-left: 100px;
+  font-size: 110%;
+}
+
+.about h2{
+  font-weight: 600;
+}
+.about{
+  text-align: center;
+  align-content: center;
   padding: 10px;
+  background-color: rgb(131, 97, 61);
+}
+.about p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about img{
+  border-radius: 100%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+
+.resume{
+  padding: 10px;
+}
+
+.projects{
+  padding: 10px;
+  background-color: rgb(131, 97, 61);
 
 }
 
-.about{
-  
+.projects .row{
+  height: 300px;
+  border: 1px solid var(--white);
+  padding: 10px;
+}
+
+
+.contact{
+  padding: 10px;
 }
