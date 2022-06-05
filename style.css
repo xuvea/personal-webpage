@@ -1,17 +1,18 @@
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 }
 
 body{
   margin: 0;
-  background-color: rgb(114, 85, 53);
+  background-color: rgb(59, 38, 15);
 }
 .nav-bar{
   position: fixed;
   height: 100%;
   max-width: 100px;
-  background-color: bisque;
+  background-color: rgb(245, 226, 202);
 }
 
 .flex-row{
@@ -24,7 +25,7 @@ body{
   flex-direction: column;
   width: 100px;
   justify-content: center;
-  background-color:bisque;
+  background-color:rgb(245, 226, 202);
 }
 
 .button1{
@@ -62,27 +63,30 @@ body{
   flex: 90%;
   margin-left: 100px;
   font-size: 110%;
+  color: rgb(245, 226, 202);
 }
 
 .about h2{
   font-weight: 600;
+  margin: 20px;
 }
 .about{
   text-align: center;
   align-content: center;
   padding: 10px;
-  background-color: rgb(131, 97, 61);
+  background-color: rgb(71, 46, 18);
 }
 .about p{
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .about img{
   border-radius: 100%;
   max-width: 300px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 50px;
   position: relative;
 }
 
@@ -91,17 +95,9 @@ body{
 }
 
 .projects{
-  padding: 10px;
-  background-color: rgb(131, 97, 61);
+  background-color: rgb(71, 46, 18);
 
 }
-
-.projects .row{
-  height: 300px;
-  border: 1px solid var(--white);
-  padding: 10px;
-}
-
 
 .contact{
   padding: 10px;
