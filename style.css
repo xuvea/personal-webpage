@@ -77,8 +77,8 @@ body{
   background-color: rgb(71, 46, 18);
 }
 .about p{
-  margin-left: 50px;
-  margin-right: 50px;
+  max-width: 500px;
+  margin: auto;
   margin-bottom: 25px;
 }
 
