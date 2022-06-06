@@ -17,3 +17,4 @@ Here are websites that I used to help me develop my website:
 - https://getbootstrap.com/
 - https://fontawesome.com/
 - https://www.youtube.com/watch?v=RsPWEmfOQdU&t=561s&ab_channel=WEBCIFAR
+  - I used this video to implement the highlighting nav bar on scroll
