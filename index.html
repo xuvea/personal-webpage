@@ -13,22 +13,24 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script defer src="webpage.js"></script>
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div class="flex-row">
       <div class="nav-bar">
         <nav class="menu">
-          <a class="menu-item border-bottom border-secondary" href="#about">
+          <a class="about highlight menu-item border-bottom border-secondary" href="#about">
             About
           </a>
-          <a class="menu-item border-bottom border-secondary" href="#resume">
+          <a class="resume menu-item border-bottom border-secondary" href="#resume">
             Resume
           </a>
-          <a class="menu-item border-bottom border-secondary" href="#projects">
+          <a class="projects menu-item border-bottom border-secondary" href="#projects">
             Projects
           </a>
-          <a class="menu-item border-bottom border-secondary" href="#contact">
+          <a class="contact menu-item border-bottom border-secondary" href="#contact">
             Contact
           </a>
           <a class="button1" href="https://github.com/xuvea" >
@@ -37,7 +39,7 @@
           <a class="button2" href="https://www.linkedin.com/in/alissa-friel-08774b187/">
             <i class="fa-brands fa-4x fa-linkedin"></i>
           </a>
-      </nav>
+        </nav>
       </div>
       <section id="about" class="content">
         <div class="about shadow">
@@ -47,19 +49,58 @@
           </p>
         </div>
       </section>
-      <section id="resume" class="content">
-        <div class="resume">
+      <section id="resume" class="content container-fluid">
+        <div class="resume row">
           <h2 class="mx-auto text-center" style="margin-top: 25px; margin-bottom: 20px;">Resume</h2>
-          <p>Smelly cheese pepper jack cheese slices. Airedale cheesy grin stilton stinking bishop when the cheese comes out everybody's happy ricotta gouda boursin. Fondue stinking bishop manchego cheesy feet danish fontina paneer who moved my cheese swiss. Feta babybel lancashire queso fromage mozzarella taleggio chalk and cheese. Parmesan bavarian bergkase.
-
-          Cheese strings the big cheese caerphilly. Dolcelatte goat lancashire red leicester cheese and wine dolcelatte jarlsberg edam. Cheesecake paneer fromage cheese slices airedale port-salut manchego paneer. Swiss pecorino pepper jack bavarian bergkase.
+          <div class="row">
+            <h4>Education</h4>
+            <div class="col-8">
+              <p class="mb-0">Portland State University | GPA 3.5</p>
+              <p >Bachelor of Science in Computer Science (In Progress)</p>
+            </div>
+            <div class="col-4">
+              <p class="mb-0">September 2020 - present</p>
+              <i>Portland, Oregon</i>
+            </div>
             
-          Cheesy grin the big cheese roquefort. Paneer blue castello boursin cauliflower cheese say cheese parmesan boursin cheese triangles. Camembert de normandie cheese and biscuits the big cheese who moved my cheese cheddar bavarian bergkase fromage frais bocconcini. Fromage frais cheesy feet bavarian bergkase swiss dolcelatte mascarpone cheese slices cow. Danish fontina.
-            
-          Macaroni cheese edam cow. Goat danish fontina blue castello lancashire mozzarella the big cheese mascarpone stilton. Queso who moved my cheese pepper jack the big cheese chalk and cheese cheese and wine the big cheese goat. Macaroni cheese fromage frais.
-            
-          Pecorino babybel melted cheese. Cow jarlsberg st. agur blue cheese camembert de normandie hard cheese brie pecorino cheese and biscuits. Airedale cheesy grin lancashire ricotta paneer halloumi stilton pepper jack. Mascarpone blue castello.
-          </p>
+          </div>
+          <div class="row">
+            <h4>Experince</h4>
+            <div class="col-8">
+              <p class="mb-0">Computer Action Team (CAT), <i> Portland State University</i></p>
+              <i>Volunteer</i>
+              <ul>
+                <li>Answer or escalate customer support tickets via email, chat, and phone till resolution is found.</li>
+                <li>Involved in the web development team to maintain and improve the current IT ticket website, scheduling website and other miscellaneous projects.</li>
+                <li>Working in the administration team to help the CAT operate efficiently and help run events to promote the organization.</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <p class="mb-0">September 2021 - present</p>
+              <i>Portland, Oregon</i>
+            </div>
+          </div>
+          <div class="row">
+            <h4>Skills</h4>
+            <div class="col-4">
+              <ul>
+                <li>C</li>
+                <li>C++</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li>Python</li>
+                <li>SQL</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li>Javascript</li>
+                <li>Java</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <section id="projects" class="content container-fluid">
@@ -122,11 +163,12 @@
             </div>
           </div>
           <div class="row mt-3">
-            <button type="button" class="btn btn btn-info col m-3">Submit</button>
-            <button type="reset" class="btn btn-secondary col m-3">Reset</button>
+            <button type="button" class="btn col m-3">Submit</button>
+            <button type="reset" class="btn col m-3">Reset</button>
           </div>
         </form>
       </section>
+      <footer>© 2022 Alissa Friel</footer>
     </div>
   </body>
 </html>

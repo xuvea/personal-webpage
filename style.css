@@ -8,6 +8,15 @@ body{
   margin: 0;
   background-color: rgb(59, 38, 15);
 }
+
+li{
+  list-style-type: square ;
+}
+
+.btn{
+  background-color: aquamarine;
+  border: 0;
+}
 .nav-bar{
   position: fixed;
   height: 100%;
@@ -42,8 +51,6 @@ body{
   left: 22px;
  }
 
-
-
 .menu-item{
   width: 100%;
   padding: 20px 0px 20px 0px;
@@ -66,11 +73,11 @@ body{
   color: rgb(245, 226, 202);
 }
 
-.about h2{
+.content .about h2{
   font-weight: 600;
   margin: 20px;
 }
-.about{
+.content .about{
   text-align: center;
   align-content: center;
   padding: 10px;
@@ -82,23 +89,35 @@ body{
   margin-bottom: 25px;
 }
 
-.about img{
+.content .about img{
   border-radius: 100%;
-  max-width: 300px;
+  max-width: 400px;
   margin: auto;
   margin-top: 50px;
   position: relative;
 }
 
-.resume{
+.content .resume{
   padding: 10px;
 }
 
-.projects{
+.content .projects{
   background-color: rgb(71, 46, 18);
-
 }
 
-.contact{
+.content .contact{
   padding: 10px;
+  max-height: 400px;
+}
+
+footer{
+  flex: 90%;
+  margin-left: 100px;
+  text-align: center;
+  color: rgb(245, 226, 202);
+}
+
+a.highlight {
+  background-color: aquamarine;
+  transition: 0.3 ease-in-out;
 }
