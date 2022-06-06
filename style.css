@@ -17,6 +17,7 @@ li{
   background-color: aquamarine;
   border: 0;
 }
+
 .nav-bar{
   position: fixed;
   height: 100%;
@@ -121,4 +122,46 @@ footer{
 a.highlight {
   background-color: aquamarine;
   transition: 0.3 ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar{
+    flex: 100%;
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    z-index: 99;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    width: auto;
+    justify-content: center;
+  }
+  .button1{
+    position: relative;
+    top: 10px;
+  }
+
+  .button2{
+    position: relative;
+    top: 10px;
+  }
+
+  .content{
+    flex: 100%;
+    margin-left: 0px;
+  }
+
+  .content .about{
+    margin-top: 60px;
+  }
+
+  .footer{
+    flex: 100%;
+    margin-left: 0px;
+  }
 }
