@@ -14,32 +14,30 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css"/>
-
   </head>
   <body>
-    
     <div class="flex-row">
       <div class="nav-bar">
         <nav class="menu">
-            <a class="menu-item border-bottom border-secondary" href="#about">
-              About
-            </a>
-            <a class="menu-item border-bottom border-secondary" href="#resume">
-              Resume
-            </a>
-            <a class="menu-item border-bottom border-secondary" href="#projects">
-              Projects
-            </a>
-            <a class="menu-item border-bottom border-secondary" href="#contact">
-              Contact
-            </a>
-            <a class="button1" href="https://github.com/xuvea" >
-              <i class="fa-brands fa-4x fa-github" ></i>
-            </a>
-            <a class="button2" href="https://www.linkedin.com/in/alissa-friel-08774b187/">
-              <i class="fa-brands fa-4x fa-linkedin"></i>
-            </a>
-          </nav>
+          <a class="menu-item border-bottom border-secondary" href="#about">
+            About
+          </a>
+          <a class="menu-item border-bottom border-secondary" href="#resume">
+            Resume
+          </a>
+          <a class="menu-item border-bottom border-secondary" href="#projects">
+            Projects
+          </a>
+          <a class="menu-item border-bottom border-secondary" href="#contact">
+            Contact
+          </a>
+          <a class="button1" href="https://github.com/xuvea" >
+            <i class="fa-brands fa-4x fa-github" ></i>
+          </a>
+          <a class="button2" href="https://www.linkedin.com/in/alissa-friel-08774b187/">
+            <i class="fa-brands fa-4x fa-linkedin"></i>
+          </a>
+      </nav>
       </div>
       <section id="about" class="content">
         <div class="about shadow">
@@ -51,7 +49,7 @@
       </section>
       <section id="resume" class="content">
         <div class="resume">
-          <h2 class="mx-auto text-center">Resume</h2>
+          <h2 class="mx-auto text-center" style="margin-top: 25px; margin-bottom: 20px;">Resume</h2>
           <p>Smelly cheese pepper jack cheese slices. Airedale cheesy grin stilton stinking bishop when the cheese comes out everybody's happy ricotta gouda boursin. Fondue stinking bishop manchego cheesy feet danish fontina paneer who moved my cheese swiss. Feta babybel lancashire queso fromage mozzarella taleggio chalk and cheese. Parmesan bavarian bergkase.
 
           Cheese strings the big cheese caerphilly. Dolcelatte goat lancashire red leicester cheese and wine dolcelatte jarlsberg edam. Cheesecake paneer fromage cheese slices airedale port-salut manchego paneer. Swiss pecorino pepper jack bavarian bergkase.
@@ -66,7 +64,7 @@
       </section>
       <section id="projects" class="content container-fluid">
         <div class="projects row shadow">
-          <h2 class="mx-auto text-center">Projects</h2>
+          <h2 class="mx-auto text-center" style="margin-top: 25px; margin-bottom: 20px;">Projects</h2>
           <div class="card bg-success col m-3 p-0 shadow border-0">
             <img class="card-img-top" style="height: 185px;" src="images/ChocAn.png" alt="picture of a chocolate straberry">
             <div class="card-body">
@@ -101,11 +99,33 @@
         </div>
       </section>
       <section id="contact" class="content">
-        <div class="contact">
-          <h2 class="mx-auto text-center">Contact</h2>
-          <p>Who moved my cheese cheese and biscuits cheesy grin. The big   cheese stilton cut the cheese lancashire cheesecake edam edam babybel. Roquefort caerphilly melted cheese jarlsberg edam cream cheese st. agur blue cheese stinking bishop. Cheeseburger cheesy feet chalk and cheese pepper jack cheddar ricotta. Lancashire boursin red leicester. Cheesecake camembert de normandie danish fontina paneer everyone loves squirty cheese squirty cheese pecorino. Cheesecake paneer bavarian bergkase queso cheddar swiss manchego parmesan. Boursin macaroni cheese cheddar. Cut the cheese fondue swiss. Cheesy feet parmesan when the cheese comes out everybody's happy mascarpone mascarpone cauliflower cheese who moved my cheese cheese slices. Hard cheese cheese triangles bocconcini cheese triangles taleggio stinking bishop smelly cheese camembert de normandie. Port-salut smelly cheese rubber cheese cheeseburger goat cheeseburger babybel cheese slices. Halloumi manchego goat cheese and biscuits. Boursin rubber cheese swiss. Cream cheese paneer edam red leicester cheeseburger say cheese feta the big cheese. Cauliflower cheese ricotta cheese triangles emmental paneer taleggio cheeseburger cheese and wine. Smelly cheese stilton. When the cheese comes out everybody's happy fromage manchego. Caerphilly babybel paneer st. agur blue cheese gouda taleggio croque monsieur cottage cheese. Cut the cheese bavarian bergkase when the cheese comes out everybody's happy cream cheese pepper jack roquefort pecorino gouda. Cheese on toast cream cheese paneer.
-          </p>
-        </div>
+        <h2 class="mx-auto text-center" style="margin-top: 25px; margin-bottom: 20px;">Contact</h2>
+        <form class="content container was-validated w-75 my-5 mx-auto border rounded bg-success border-0">
+          <div class="row form-group">
+            <div class="col-12 col-sm-3 mt-3">
+              <label for="name" class="form-label">Name:</label>
+            </div>
+            <div class="col-12 col-sm-9 mt-3 ">
+              <input type="name" class="form-control" id="name" name="name" placeholder="first and last name here" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+          </div>
+          <div class="row form-group">
+            <div class="col-12 col-sm-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+            </div>
+            <div class="col-12 col-sm-9 mt-3">
+              <input type="email" class="form-control" id="email" name="email" placeholder="email here" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <button type="button" class="btn btn btn-info col m-3">Submit</button>
+            <button type="reset" class="btn btn-secondary col m-3">Reset</button>
+          </div>
+        </form>
       </section>
     </div>
   </body>
