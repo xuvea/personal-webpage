@@ -1,4 +1,3 @@
-
 const sections = document.querySelectorAll('section');
 
 const navi = document.querySelectorAll('a.menu-item');
@@ -9,6 +8,9 @@ window.addEventListener('scroll', () => {
   sections.forEach( section => {
     const sectionTop = section.offsetTop;
     if(scrollY >= (sectionTop)){
+      current = section.getAttribute('id');
+    }
+    if(window.innerHeight + window.pageYOffset >= document.body.offsetHeight) {
       current = section.getAttribute('id');
     }
   })
